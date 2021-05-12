@@ -1,0 +1,33 @@
+# 项目结构
+  * build——webpack打包配置(一般不做修改)
+  * config——环境变量配置及本地启动设置
+    * dev.env.js——本地启动配置
+    * index.js——启动配置
+    * prod.env.js——生产环境变量配置
+    * test.env.js——测试环境变量配置
+  * doc——描述文件
+  * src——项目入口
+    * api——统一管理api文件
+    * assets——静态文件
+    * components——公共组件
+    * directive——自定义指令文件
+    * filter——全局过滤器文件
+    * icons——svg图标文件
+    * lang——多语言配置(可暂时不用)
+    * router——统一管理路由文件
+    * store——全局状态管理中心
+    * style——公共css文件
+    * utils——公共js工具
+    * vendor——导入导出的基础js文件
+    * view——页面相关编写
+    * App.vue——根节点挂载
+    * main.js——入口文件配置
+  * static——webpack打包不编译文件
+  * .babelrc——js语法降级处理配置
+  * .editorconfig——编辑器格式配置
+  * .eslintignore——eslint检测忽略文件配置
+  * .gitignore——git上传文件忽略配置
+  * index.html——项目主入口
+  * package.json——包依赖管理
+
+
