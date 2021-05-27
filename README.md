@@ -13,3 +13,7 @@
 ## [第四节-弹窗基础代码模板-dialog](module-dialog.md)
 
 ## [第五节-导出 excel 使用方法](module-export.md)
+
+## [第六节-一些兼容性插件的使用]()
+
+### [解决 js 计算时精度丢失的问题](plugin/numberPrecision.md)
